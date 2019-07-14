@@ -19,6 +19,7 @@ jupyter notebook tv_script_generation.ipynb
 5. Follow instructions on the notebook
 
 ## Model Architecture
+This model consists of 1 embedding layer, 2 lstm layers and 1 fully connected layer.
 
 ## Training
-
+Its recommended to train this model on GPU as it takes long time to train this model on large images. You can use utilize GPU provided by AWS cloud.
